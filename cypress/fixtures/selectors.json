@@ -1,0 +1,11 @@
+{
+  "mainPageHeaderTitle": ".page-header__title",
+  "weekShow": "[data-time-stamp]",
+  "tabToday": "[data-time-stamp]",
+  "mainAdminPageHeaderTitle": ".page-header",
+  "titleHallControl": "#hall-control > .conf-step__header",
+  "bodyPageErrorAutorisation": "body",
+  "emailField": "[name='email']",
+  "passwordField": "[name='password']",
+  "tabNavigationWeek": ".page-nav"
+}

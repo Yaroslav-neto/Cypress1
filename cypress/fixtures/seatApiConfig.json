@@ -1,0 +1,6 @@
+[
+  { "row": 1, "place": 1, "type": "standart" },
+  { "row": 1, "place": 2, "type": "standart" },
+  { "row": 2, "place": 2, "type": "standart" },
+  { "row": 2, "place": 3, "type": "standart" }
+]
