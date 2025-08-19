@@ -34,5 +34,5 @@ dist/
 build/
 
 secrets.json
-scripts/
 adminConfig.json
+downloads/

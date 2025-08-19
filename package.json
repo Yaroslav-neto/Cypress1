@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "testSpec": "cypress run --browser chrome --spec 'cypress/e2e/tests.spec.cy.js'",
+    "testSpecKey": "npx cypress run --browser chrome --spec 'cypress/e2e/tests.spec.cy.js' --group testSpec --ci-build-id 17 --record --key 706eec63-03f1-4b27-88cf-5bd5ea200017",
+    "test1Spec": "cypress run --browser chrome --spec 'cypress/e2e/tests1.spec.cy.js'",
+    "test1SpecKey": "npx cypress run --browser chrome --spec 'cypress/e2e/tests1.spec.cy.js' --group test1Spec --ci-build-id 17 --record --key 706eec63-03f1-4b27-88cf-5bd5ea200017",
+    "testAll": "cypress run",
     "testHD": "cypress run --headed",
-    "testCloud": "node ./scripts/run-cypress.js"
+    "testDesktopCloud": "node ./scripts/run-cypress.js",
+    "testGroupCloud": "node ./scripts/groupRun-cypress.js"
   },
   "keywords": [],
   "author": "",
